@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Services</title>
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav>
+        <ul class="nav-list">
+            <div class="changeTheme">Theme</div>
+            <li class="nav-item"><a href="#">Présentation et service</a></li>
+            <li class="nav-item"><a href="#">Économie</a></li>
+            <li class="nav-item"><a href="#">Histoire</a></li>
+            <li class="nav-item"><a href="#" class="logo">reef</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const switchThemeBtn = document.querySelector('.changeTheme')
+        let toggleTheme = 0;
+
+        switchThemeBtn.addEventListener('click', () => {
+
+            if (toggleTheme === 0) {
+                document.documentElement.style.setProperty('--ecriture', '#a7a9be');
+                document.documentElement.style.setProperty('--background', '#0f0e17');
+                document.documentElement.style.setProperty('--backgroundnav', 'black');
+                document.documentElement.style.setProperty('--backgroundfooter', 'black');
+                document.documentElement.style.setProperty('--backgroundbutton', '#ff8906');
+                document.documentElement.style.setProperty('--opacityim', '0.5');
+                toggleTheme++;
+            } else {
+                document.documentElement.style.setProperty('--ecriture', '#716040');
+                document.documentElement.style.setProperty('--background', '#f9f4ef');
+                document.documentElement.style.setProperty('--backgroundnav', '#fff');
+                document.documentElement.style.setProperty('--backgroundfooter', '#eaddcf');
+                document.documentElement.style.setProperty('--backgroundbutton', '#f25042');
+                document.documentElement.style.setProperty('--opacityim', '1');
+                toggleTheme--;
+            }
+        })
+
+    </script><br><br>
+
+    <center>
+        <h1>
+            <p>Présentation free</p>
+        </h1>
+        <p>Free propose des offres box Internet comme la "Freebox" qui regroupe plusieurs fonctionnalités et ces selon
+            ces besoins que le client choisit une offre box Internet évidemment. Free fait aussi des forfait mobile
+            avec trois types qui sont détaillés ci-dessous qui comportent plusieurs fonctionnalités et le prix de ces forfaits
+            peut changer si vous possédez une Freebox. Free vent aussi des téléphones en collaboration avec des marques
+            de téléphone portable qui sont plus attirantes car ils sont souvent avec des remises ou coupler avec un
+            forfait qui est le même mais qui coûte moins cher.</p>
+
+        <h1>
+            <p>Offre Box</p>
+        </h1>
+    </center>
+    <div class="service">
+        <div class="listservice">
+            <center>
+                <p>Freebox Mini 4k</p>
+            </center>
+            <img src="freeboxmini4k.jpg" alt="" class="imgfreebox"><br>
+            <p class="description">-Accès ADSL/Fibre jusqu'à 1 Gbit/s</p>
+            <p class="description">-Appels vers fixes de plus de 110 destinations</p>
+            <p class="description">-Freebox TV : plus de 220 chaînes</p>
+        </div> <br><br><br><br><br>
+
+        <div class="listservice">
+            <center>
+                <p>Freebox Révolution</p>
+            </center>
+            <img src="freebox-revolution-big.jpg" alt="" class="imgfreebox"><br>
+            <p class="description">-Accès ADSL/Fibre jusqu'à 1 Gbit/s</p>
+            <p class="description">-Appels vers mobiles France métropolitaine et DOM et vers fixes de plus de 110
+                destinations</p>
+            <p class="description">-Freebox TV (220 chaînes) en option</p>
+        </div> <br><br><br><br><br>
+
+        <div class="listservice">
+            <center>
+                <p>Freebox Pop</p>
+            </center>
+            <img src="freeboxpop.png" alt="" class="imgfreebox"><br>
+            <p class="description">-Accès ADSL/Fibre jusqu'à 5 Gbit/s</p>
+            <p class="description">-Répéteur WiFi inclus sur demande</p>
+            <p class="description">-Appels vers mobiles France métropolitaine et DOM et vers fixes de plus de 110
+                destinations</p>
+            <p class="description">-Plus de 220 chaînes TV</p>
+        </div> <br><br><br><br><br>
+    </div>
+
+    <div class="service">
+        <div class="listservice">
+            <center>
+                <p>Freebox Delta S</p>
+            </center>
+            <img src="freeboxdeltas.jpeg" alt="" class="imgfreebox">
+            <p class="description">-Accès ADSL/Fibre jusqu'à 8 Gbit/s</p>
+            <p class="description">-Appels vers mobiles France métropolitaine et DOM et vers fixes de plus de 110
+                destinations</p>
+            <p class="description">-Agrégateur xDSL+4G : débit jusqu’à 200 Mbit/s en réception et 60 Mbit/s en émission
+                en VDSL+4G</p>
+        </div><br><br><br><br><br>
+
+        <div class="listservice">
+            <center>
+                <p>Freebox Delta</p>
+            </center>
+            <img src="freeboxdelta.jpeg" alt="" class="imgfreebox">
+            <p class="description">-Accès ADSL/Fibre jusqu'à 8 Gbit/s</p>
+            <p class="description">-Compatible WiFi 6E </p>
+            <p class="description">-Appels vers mobiles France métropolitaine et DOM et vers fixes de plus de 110
+                destinations</p>
+            <p class="description">-Plus de 220 chaînesTV</p>
+            <p class="description">-Assistant vocal Alexa et OK Freebox</p>
+        </div><br><br><br><br><br>
+    </div>
+
+    <center>
+        <h1>
+            <p>Offre Mobile</p>
+        </h1>
+    </center>
+    <div class="service">
+        <div class="listservice">
+            <center>
+                <p>Forfait 2€</p>
+            </center>
+            <img src="" alt="" class="imgfreebox"><br>
+            <p class="description">-Internet 50 Mo en 4G/4G+</p>
+            <p class="description">-Appel 2h</p>
+            <p class="description">-SMS & MMS illimités</p>
+            <p class="description">-Depuis Europe/DOM Internet 50 Mo en 4G</p>
+        </div> <br><br><br><br><br>
+
+        <div class="listservice">
+            <center>
+                <p>Série Free</p>
+            </center>
+            <img src="" alt="" class="imgfreebox"><br>
+            <p class="description">-Internet 110 Go en 4G/4G+</p>
+            <p class="description">-Appels illimités</p>
+            <p class="description">-SMS & MMS illimités</p>
+            <p class="description">-Depuis Europe/DOM Internet 16Go en 4G</p>
+        </div> <br><br><br><br><br>
+
+        <div class="listservice">
+            <center>
+                <p>Forfait Free 5G 210Go</p>
+            </center>
+            <img src="" alt="" class="imgfreebox"><br>
+            <p class="description">-Internet 210 Go en 5G/4G+</p>
+            <p class="description">-Appels illimités</p>
+            <p class="description">-SMS & MMS illimités</p>
+            <p class="description">-Depuis l'étranger Internet 25 Go en 4G dans + 70 destinations</p>
+        </div> <br><br><br><br><br>
+    </div>
+
+
+
+
+    <div class="footer">
+        <br><br><br>
+        <div class="foot">
+            <div class="foot-1">
+                <h2 class="foot-1-heading">Contact</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/free.fr/?hl=fr">Instagram</a></li>
+                    <li><a href="https://twitter.com/free">Twitter</a></li>
+                    <li><a href="https://fr-fr.facebook.com/FreeFrance/">Facebook</a></li>
+                    <li><a href="https://fr.linkedin.com/company/iliadfree">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="foot-2">
+                <h2 class="foot-1-heading">Inspirations</h2>
+                <ul>
+                    <li><a href="https://www.free.fr/freebox/">Free</a></li>
+                    <li><a
+                            href="https://www.laboutiqueharibo.fr/?utm_source=google&utm_medium=cpc&utm_campaign=[B2C]%20-%20Branding&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qg0OYCJfzM7HxhYFICvSKoz-5GJKo6FfXzXJF34L37_wETHQ3KYOSQaApEgEALw_wcB">Haribo</a>
+                    </li>
+                    <li><a href="https://www.flyhyer.com/">FlyHyer</a></li>
+                    <li><a href="https://www.opcoep.fr/">Opco Ep</a></li>
+                </ul>
+            </div>
+            <div class="foot-3">
+                <h2 class="foot-1-heading">Lien</h2>
+                <li><a
+                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fassistance.free.fr%2F&psig=AOvVaw12Fm_qj8IlUTiKfdZPO8oZ&ust=1665213397371000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDrm7vJzfoCFQAAAAAdAAAAABAD">Image
+                        1</a></li>
+                <li><a
+                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.universfreebox.com%2Farticle%2F51598%2FFree-va-construire-un-siege-social-a-La-Reunion-decouvrez-le-en-avant-premiere&psig=AOvVaw1zWiaAyK2DVow-O_ot8sXR&ust=1665213454000000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiRvtbJzfoCFQAAAAAdAAAAABAD">Image
+                        2</a></li>
+                <li><a
+                        href="https://www.free.fr/offre/freebox-mini-4k/?gclid=Cj0KCQjwnP-ZBhDiARIsAH3FSRcbXxzVAuQzA6Mreoweu0_a4jS6avlCXlHKPImwE_bW8cpUnluboekaAgSREALw_wcB">Free</a>
+                </li>
+                <li></li>
+            </div>
+        </div><br><br>
+        <div class="grp">Leitao Manuel, Lauret Lucas, Yassine Chahid</div>
+        <div class="grp">SAÉ 05 06, groupe: 11, B2, 2022</div><br><br><br>
+    </div>
+
+</body>
+
+</html>
