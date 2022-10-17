@@ -110,10 +110,10 @@ p {
     align-items: flex-start;
     color: var(--ecriture);
     position: absolute;
-    top: 15ch;
-    left: 12ch;
-    font-size: 2vw;
-    width: 20%;
+    top: 25ch;
+    left: 13ch;
+    font-size: larger;
+    width: 30%;
     font-weight: bold;
     text-align: center;
     display: flex;
