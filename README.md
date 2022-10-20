@@ -21,4 +21,4 @@ L'URL pour aller voir le site officiel de [free](https://www.free.fr/freebox/)(s
 ### Page des services (Manuel LEITAO) :
 ![Page service](Images/Services.png)
 ### Histoire (Lucas LAURET) :
-![Histoire](Images/Document.png)
+![Histoire](Images/Histoire.png)
