@@ -1,95 +1,180 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- Lucas LAURET S1B2 Page Histoire de Free-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style2.css">
-    <script src="/Javascript/features.js"></script>
-    <title>Histoire</title>
+    <link rel="stylesheet" href="css/stylehistoire.css">
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- nav bar-->
+    <nav>
+        <ul class="nav-list">
+            <li class="changeTheme">Theme</li>
+            <li class="nav-item"><a href="page_service.html">Présentation et service</a></li>
+            <li class="nav-item"><a href="#">Économie</a></li>
+            <li class="nav-item"><a href="histoire.html">Histoire</a></li>
+            <li class="nav-item"><a href="index.html" class="logo">reef</a></li>
+        </ul>
+    </nav>
 
+    <script>
+        const switchThemeBtn = document.querySelector('.changeTheme')
+        let toggleTheme = 0;
 
-    <b> Histoire de Free </b>
-    <div class="container">
-        <div class="r-box">
-            <div class="card-box">
-                <img class="illustration" src="/Images/xavierniel.jpeg" alt="Test">
-                <div class="card">Free propose, en France, le 26 avril 1999 un accès à Internet sans abonnement ni
-                    numéro
-                    surtaxé
-                    Free propose, en France, le 26 avril 1999 un accès à Internet sans abonnement ni numéro surtaxé4.
-                    Ses prédécesseurs sur le créneau de l'accès sans abonnement furent World Online (1er avril 1999),
-                    puis Freesurf (19 avril 1999). Le nom de Free (« gratuit ou libre » en anglais) vient du fait que
-                    l'entreprise propose un accès bas débit à Internet gratuit en modem RTC hors coût des communications
-                    téléphoniques, au tarif local et régional.
+        switchThemeBtn.addEventListener('click', () => {
+
+            if (toggleTheme === 0) {
+                document.documentElement.style.setProperty('--ecriture', '#a7a9be');
+                document.documentElement.style.setProperty('--background', '#0f0e17');
+                document.documentElement.style.setProperty('--backgroundnav', 'black');
+                document.documentElement.style.setProperty('--backgroundfooter', 'black');
+                document.documentElement.style.setProperty('--backgroundbutton', '#ff8906');
+                document.documentElement.style.setProperty('--opacityim', '0.5');
+                toggleTheme++;
+            } else {
+                document.documentElement.style.setProperty('--ecriture', '#716040');
+                document.documentElement.style.setProperty('--background', '#f9f4ef');
+                document.documentElement.style.setProperty('--backgroundnav', '#fff');
+                document.documentElement.style.setProperty('--backgroundfooter', '#eaddcf');
+                document.documentElement.style.setProperty('--backgroundbutton', '#f25042');
+                document.documentElement.style.setProperty('--opacityim', '1');
+                toggleTheme--;
+            }
+        })
+
+    </script><br><br><br>
+    <div class="main">
+        <div class="article">
+            <div class="bloc">
+                <div class="l-box">
+                    <div class="texte">
+                        <div class="titre">
+                            Création de Free
+                            <hr>
+                        </div>
+                        <div class="sous-texte">
+                            Free propose, en France, le 26 avril 1999 un accès à Internet sans abonnement ni numéro
+                            surtaxéLe nom de
+                            <br><br>
+                            <p> Free (« gratuit ou libre » en anglais) vient du fait que
+                                l'entreprise propose un accès bas débit à Internet gratuit en modem RTC hors coût des
+                                communications
+                                téléphoniques, au tarif local et régional.</p>
+                        </div>
+                    </div>
                 </div>
-                <b class="années"> 1999 </b>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card">2002 Lancement de la première Freebox
-                    18 septembre 2002 : Free lance sa première Freebox et son premier forfait ADSL.
-
-                    Un accès illimité pour 29,99 €/mois, à 512 kbps , c’est du jamais vu face aux forfaits
-                    concurrents avoisinant les 45 €, « le haut débit au prix du bas débit », clame alors Free. Les zones
-                    dégroupées (petite couronne parisienne et grandes agglomérations) sont les premières à bénéficier de
-                    la Freebox, les autres abonnés se voyant proposer un modem USB traditionnel.
-                </div>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card"> 2003Lancement de Freebox TV
-                    Les abonnés éligibles en zone dégroupée profitent instantanément d’un bouquet de plus de 100 chaînes
-                    dont un grand nombre de chaînes gratuites. Le service est là encore proposé sans aucun surcoût,
-                    d’abord dans 7 agglomérations françaises puis rapidement étendu. Au rang des premières chaînes
-                    disponibles figurent la plupart des chaînes hertziennes nationales gratuites : France 2, France 3,
-                    France 5 et Arte… mais pas TF1 ni M6. Les deux chaînes resteront longtemps réfractaires à l’idée de
-                    venir sur le bouquet Freebox TV.
-                </div>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card">2012 Lancement des forfaits mobile
-                    Les deux offres mobiles de Free, présentées par Xavier Niel lui-même lors d’une conférence
-                    retransmise en direct sur Internet, viennent bouleverser le paysage de la téléphonie mobile
-                    française. 19,99 € pour une formule tout-illimitée avec 3 Go d’Internet, 2 € pour un forfait 1h et
-                    60 SMS. Avec des réductions pour les abonnés Freebox.
-                </div>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card">2014 Lancement des bornes Free
-                    Pour accélérer le déploiement de son réseau physique, Free annonce le lancement d’une borne
-                    interactive qui permettra de souscrire à un forfait mobile et d’obtenir immédiatement sa carte SIM.
-                </div>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card">2021 Lancement de Free Pro
-                    Free Pro a mis à jour la brochure tarifaire de son offre réservée aux entreprises le mois dernier.
-                    Désormais, les professionnels ne peuvent que souscrire sans engagement à la Freebox Pro, l’offre
-                    avec engagement de 24 ou 36 mois a été supprimée.
-                </div>
-            </div>
-
-            <div class="card-box">
-                <img class="illustration" src="/Images/FreeImg3.webp" alt="Test">
-                <div class="card">30 septembre 2022 : arrêt définitif du service Internet+ sur Freebox.
-                    A partir du 30 septembre 2022, Free met fin définitivement à son service Internet+ accessible pour
-                    les abonnées Freebox directement disponible sur l'espace abonné.
+                <div class="r-box">
+                    <div class="illustration">
+                        <div class="carre"></div>
+                        <img class="image" src="Images/xavierniel.jpeg" alt="">
+                        <div class="annee">
+                            1999
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="article">
+            <div class="bloc2">
+                <div class="items">
+                    <div class="itemtop">
+                        <img class="image2" src="Images/freebox1.png" alt="Prmière Freebox">
+                    </div>
+                    <div class="itembottom">
+                        <b>2002 - Lancement de la première Freebox</b>
+                        <hr><br>
+                        Un accès illimité pour 29,99 €/mois, à 512 kbps , c’est du jamais vu face aux forfaits
+                        concurrents avoisinant les 45 €, « le haut débit au prix du bas débit »
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="itemtop">
+                        <img class="image2" src="Images/freeboxpop.png" alt="Freebox Pop">
+                    </div>
+                    <div class="itembottom">
+                        <b>2020 - Lancement de la Freebox Pop</b>
+                        <hr><br>
+                        La Freebox Pop intègre le nouveau Player TV Pop, la nouvelle box TV, permettant d’accéder à plus
+                        de 220 chaînes TV ainsi qu’aux services de vidéo à la demande : Netflix, Disney+, Amazon Prime
+                        Video et CANAL+.
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="itemtop">
+                        <img class="image2" src="Images/freebox2.png" alt="Freebox Revolution">
+                    </div>
+                    <div class="itembottom">
+                        <b>2010 - Lancement de la Freebox Revolution</b>
+                        <hr><br>
+                        En décembre 2010, la Freebox Révolution casse les codes :
+                        Lecteur CD/DVD/Blu-Ray dans le décodeur Freebox Player, disque dur réseau de 250 Go (vs 40
+                        Go pour Orange et SFR en 2010) Interface
+                        graphique 3D "moderne" à la fois rapide et fluide.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+            <div class="bloc3">
+                <div class="gauche">
+                    <div class="items">
+                        <div class="itemtop">
+                            <img src="Images/freepro.png" alt="">
+                        </div>
+                        <div class="itembottom">
+                            <p>2011: Lancement de Free Pro : Offre pour le privé, les entreprises, leurs permettant
+                                d'obtenir
+                                une connection optimale</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="droite">
+                    <div class="items">
+                        <div class="itemtop">
+                            <img src="Images/internetplus.png" alt="">
+                        </div>
+                        <div class="itembottom">
+                            <p> 30 septembre 2022 : arrêt définitif du service Internet+ sur Freebox.
+                                A partir du 30 septembre 2022, Free met fin définitivement à son service Internet+
+                                accessible pour
+                                les abonnées Freebox directement disponible sur l'espace abonné.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <br><br><br>
+        <div class="foot">
+            <div class="foot-1">
+                <h2 class="foot-1-heading">Contact</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/free.fr/?hl=fr">Instagram</a></li>
+                    <li><a href="https://twitter.com/free">Twitter</a></li>
+                    <li><a href="https://fr-fr.facebook.com/FreeFrance/">Facebook</a></li>
+                    <li><a href="https://fr.linkedin.com/company/iliadfree">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="foot-2">
+                <h2 class="foot-1-heading">Inspirations</h2>
+                <ul>
+                    <li><a href="https://www.free.fr/freebox/">Free</a></li>
+                    <li><a href="https://bit.ly/3TgH7bB">Haribo</a>
+                    </li>
+                    <li><a href="https://www.flyhyer.com/">FlyHyer</a></li>
+                    <li><a href="https://www.opcoep.fr/">Opco Ep</a></li>
+                </ul>
+            </div>
+
+        </div><br><br>
+        <div class="grp">Fait par Lucas LAURET</div>
+        <div class="grp">SAÉ 05 06, groupe: 11, B2, 2022</div><br><br><br>
     </div>
 </body>
 
