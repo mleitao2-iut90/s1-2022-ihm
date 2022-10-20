@@ -11,7 +11,7 @@ Bienvenue sur le github de reef (pour ne pas nous confondre avec free) voici un 
 
 l'URL du site github page : [Lien](https://mleitao2-iut90.github.io/s1-2022-ihm/)  
 l'URL du projet github : [Lien](https://github.com/mleitao2-iut90/s1-2022-ihm)  
-Aller sur le pdf de W3C : [Lien](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/doc/rapport%20W3C.pdf)
+Aller sur le pdf de W3C : [Lien](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/doc/rapport%20W3C.pdf)  
 L'URL pour aller voir le site officiel de [free](https://www.free.fr/freebox/)(si nous vous avons convaincu).
 
 ### Zoning général (Tous): 
