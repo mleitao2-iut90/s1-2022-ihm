@@ -270,7 +270,7 @@ a {
     gap: 15%;
     text-align: center;
 }
-@media (max-width: 800px){
+@media only screen and (max-width: 1000px) and (min-width: 500px){
     .image{
         height: 50%;
         width: 100%;
@@ -307,7 +307,7 @@ a {
     }
 
 }
-@media (max-width: 1300px){
+@media only screen and (max-width: 1300px) and (min-width: 810px){
     .image{
         height: 50%;
         width: 100%;
@@ -326,7 +326,7 @@ a {
         font-size: 200px;
     }
     .annee{
-        width: 60%;
+        width: 80%;
         font-size: 200;
     }
     .l-box, .r-box{
@@ -334,10 +334,10 @@ a {
     }
     .itemtop, .itembottom{
         height: 50%;
-        font-size: 10px;
+        font-size: 15px;
     }
     .itembottom p{
-        font-size: 10px;
+        font-size: 20px;
     }
     .itemtop .image2{
         width: 60%;
