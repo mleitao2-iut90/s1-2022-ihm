@@ -102,6 +102,7 @@ p {
 }
 
 .grp p{
+    display: block  ;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -209,15 +210,25 @@ h1{
     color: var(--ecriture);
 }
 
+.slogan3{
+    display: none;
+}
 
-@media (max-width: 800px){
+
+@media screen and (max-width: 1000px){
+    .nav-item,
+    .changeTheme{
+        font-size: 20px;
+    }
+
     .listservice{
-        border-radius: 3%;
+        border-radius: 5%;
         margin-left: 0%;
         margin-right: 0%;
         background-color: var(--backgroundnav);
         width: 80%;
     }
+
     .description{
         padding-bottom: 10%;
         margin-top: 0%;
@@ -227,6 +238,7 @@ h1{
         margin-left: 10%;
         margin-right: 10%;
     }
+
     .center{
         width: 100%;
         padding-left: 10%;
@@ -234,11 +246,29 @@ h1{
         text-align: center;
         font-size: 3vw;
     }
+
     .service{
         justify-content: center;
         margin: 1%;
         display: flex;
         color: var(--ecriture);
         gap: 2%;
+    }
+
+    .im2{
+        display: none;
+    }
+
+    .im1{
+        display: none;
+    }
+
+    .slogan3{
+        display:contents;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20%;
+        font-size: 1vw;
     }
 }
