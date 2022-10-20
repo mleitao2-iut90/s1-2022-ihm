@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 :root {
@@ -80,7 +81,6 @@ nav {
 p {
     margin-top: 5%;
     justify-content: center;
-    width: 75%;
     color: var(--ecriture);
     font-size: 2em;
 }
@@ -99,6 +99,12 @@ p {
 
 .grp {
     text-align: center;
+}
+
+.grp p{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .changeTheme {
@@ -123,7 +129,7 @@ p {
     align-items: flex-start;
     color: var(--ecriture);
     position: absolute;
-    top: 49ch;
+    top:43ch;
     left: 6ch;
     font-size: 3vw;
     width: 40%;
@@ -166,7 +172,6 @@ a {
     margin-right: 5%;
     background-color: var(--backgroundnav);
     border-style: solid;
-    border-width: auto;
     width: 20%;
     transition: all .2s ease-in-out;
 }
@@ -188,4 +193,17 @@ a {
     font-size: medium;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.center{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+h1{
+    padding-top: 5%;
+    font-size: 3em;
+    color: var(--ecriture);
 }
