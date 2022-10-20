@@ -270,79 +270,142 @@ a {
     gap: 15%;
     text-align: center;
 }
-@media only screen and (max-width: 1000px) and (min-width: 500px){
-    .image{
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+    .image {
         height: 50%;
         width: 100%;
     }
-    .carre{
-    background-color: #f25f4c;
-    height: 20%;
-    width: 80%;
-    z-index: 0;
-    left: 30%;
-    top: 2%;
-    position: relative;
+
+    .carre {
+        background-color: #f25f4c;
+        height: 20%;
+        width: 80%;
+        z-index: 0;
+        left: 30%;
+        top: 2%;
+        position: relative;
     }
-    .bloc{
+
+    .bloc {
         font-size: 200px;
     }
-    .annee{
+
+    .annee {
         width: 100%;
-        font-size: 200;
+        font-size: 100;
     }
-    .l-box, .r-box{
+
+    .l-box,
+    .r-box {
         width: 50%;
     }
-    .itemtop, .itembottom{
+
+    .itemtop,
+    .itembottom {
         height: 50%;
         font-size: 10px;
     }
-    .itembottom p{
+
+    .itembottom p {
         font-size: 10px;
     }
-    .itemtop .image2{
-        width: 60%;
-        height: 60%;
+
+    .itemtop .image2 {
+        width: 80%;
+        height: 80%;
+    }
+
+    .droite .p {
+        font-size: 15px;
+    }
+
+    .droite .item .p {
+        height: 50%;
+    }
+
+    .gauche .item .p {
+        height: 50%;
+    }
+
+    .droite .item .image2 {
+        height: 50%;
+    }
+
+    .gauche .items .itembottom {
+        height: 50%;
+    }
+
+    .droite .items .itembottom {
+        height: 50%;
     }
 
 }
-@media only screen and (max-width: 1300px) and (min-width: 810px){
-    .image{
+
+@media only screen and (max-width: 1300px) and (min-width: 810px) {
+    .image {
         height: 50%;
         width: 100%;
         bottom: 5%;
     }
-    .carre{
-    background-color: #f25f4c;
-    height: 20%;
-    width: 60%;
-    z-index: 0;
-    left: 45%;
-    top: 10%;
-    position: relative;
+
+    .carre {
+        background-color: #f25f4c;
+        height: 20%;
+        width: 60%;
+        z-index: 0;
+        left: 45%;
+        top: 10%;
+        position: relative;
     }
-    .bloc{
+
+    .bloc {
         font-size: 200px;
     }
-    .annee{
+
+    .annee {
         width: 80%;
         font-size: 200;
     }
-    .l-box, .r-box{
+
+    .l-box,
+    .r-box {
         width: 50%;
     }
-    .itemtop, .itembottom{
+
+    .itemtop,
+    .itembottom {
         height: 50%;
         font-size: 15px;
     }
-    .itembottom p{
-        font-size: 20px;
+
+    .itembottom p {
+        font-size: 18px;
     }
-    .itemtop .image2{
+
+    .itemtop .image2 {
         width: 60%;
         height: 60%;
     }
 
+    .droite .item .p {
+        height: 50%;
+    }
+
+    .gauche .item .p {
+        height: 50%;
+    }
+
+    .droite .item .image2 {
+        height: 50%;
+    }
+
+    .gauche .items .itembottom {
+        height: 50%;
+    }
+
+    .droite .items .itembottom {
+        height: 50%;
+    }
+
 }
-    
