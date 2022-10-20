@@ -270,3 +270,79 @@ a {
     gap: 15%;
     text-align: center;
 }
+@media (max-width: 800px){
+    .image{
+        height: 50%;
+        width: 100%;
+    }
+    .carre{
+    background-color: #f25f4c;
+    height: 20%;
+    width: 80%;
+    z-index: 0;
+    left: 30%;
+    top: 2%;
+    position: relative;
+    }
+    .bloc{
+        font-size: 200px;
+    }
+    .annee{
+        width: 100%;
+        font-size: 200;
+    }
+    .l-box, .r-box{
+        width: 50%;
+    }
+    .itemtop, .itembottom{
+        height: 50%;
+        font-size: 10px;
+    }
+    .itembottom p{
+        font-size: 10px;
+    }
+    .itemtop .image2{
+        width: 60%;
+        height: 60%;
+    }
+
+}
+@media (max-width: 1300px){
+    .image{
+        height: 50%;
+        width: 100%;
+        bottom: 5%;
+    }
+    .carre{
+    background-color: #f25f4c;
+    height: 20%;
+    width: 60%;
+    z-index: 0;
+    left: 45%;
+    top: 10%;
+    position: relative;
+    }
+    .bloc{
+        font-size: 200px;
+    }
+    .annee{
+        width: 60%;
+        font-size: 200;
+    }
+    .l-box, .r-box{
+        width: 50%;
+    }
+    .itemtop, .itembottom{
+        height: 50%;
+        font-size: 10px;
+    }
+    .itembottom p{
+        font-size: 10px;
+    }
+    .itemtop .image2{
+        width: 60%;
+        height: 60%;
+    }
+
+}
+    
