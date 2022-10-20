@@ -13,11 +13,24 @@
     width: 100%;
 }
 
+:root {
+    --ecriture: #716040;
+    --background: #f9f4ef;
+    --backgroundnav: #fff;
+    --backgroundfooter: #eaddcf;
+    --backgroundbutton: #f25042;
+    --opacityim: 1;
+}
+
 nav {
     z-index: 3;
     background-color: var(--backgroundnav);
     position: fixed;
     width: 100%;
+}
+
+a {
+    color: var(--ecriture);
 }
 
 .nav-list,
@@ -153,7 +166,7 @@ nav {
     margin: 17px auto 0px 0px;
     padding: 0;
     text-align: center;
-    width: 50%;
+    width: 55%;
     position: relative;
     bottom: 27%;
     right: 10%;
@@ -246,9 +259,11 @@ nav {
     background-color: var(--backgroundfooter);
     color: var(--ecriture);
 }
-.grp{
+
+.grp {
     text-align: center;
 }
+
 .foot {
     display: flex;
     justify-content: center;
