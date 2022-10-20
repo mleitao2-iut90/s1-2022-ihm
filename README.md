@@ -5,9 +5,9 @@ Bienvenue sur le Github de "REEF" (pour ne pas nous confondre avec free). Voici 
 
 Le site possède un thème sombre et clair sur la majorité des pages. Les pages sont aussi responsives pour la majorité. Nous avons séparé le site en plusieurs pages avec chacun une ou plusieurs pages à faire et les tâches :  
   
-LAURET Lucas : Page Histoire, réalisation du README.md, aide.  
-YASSINE Chahid : Page Economique, principal acteur du rapport économique.  
-LEITAO Manuel : Page d'accueil et service, très petit acteur du rapport économique, finalisation du README.md.  
+LAURET Lucas : Page Histoire, réalisation du README.md, aide, FICHIER WEB FAIT : [histoire.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/histoire.html), [stylehistoire.css](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/css/stylehistoire.css) .  
+YASSINE Chahid : Page Economique, principal acteur du rapport économique FICHIER WEB FAIT : [Economie.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/Economie.html), [style3.css](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/css/style3.css) .  
+LEITAO Manuel : Page d'accueil et service, très petit acteur du rapport économique, finalisation du README.md FICHIER WEB FAIT : [index.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/index.html), [page_service.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/page_service.html), [styles.css](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/css/styles.css).  
 
 * Etudiant 1 (Référent du groupe) : LEITAO Manuel : manuel.leitao@edu.univ-fcomte.fr  
   
