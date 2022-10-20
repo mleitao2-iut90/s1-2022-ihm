@@ -7,10 +7,10 @@
 }
 
 :root {
-    --ecriture: #db3c14;
+    --ecriture: #716040;
     --background: #f9f4ef;
-    --backgroundnav: rgb(243, 243, 243);
-    --backgroundfooter: #5a564e;
+    --backgroundnav: #fff;
+    --backgroundfooter: #eaddcf;
     --backgroundbutton: #f25042;
     --opacityim: 1;
 }
