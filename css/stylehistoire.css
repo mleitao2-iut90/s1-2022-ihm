@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.article {
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+
+nav {
+    z-index: 3;
+    background-color: var(--backgroundnav);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-list,
+.changeTheme {
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item a:hover,
+.changeTheme:hover {
+    color: var(--backgroundbutton);
+    transform: scale(1.3);
+}
+
+.nav-item:hover,
+.changeTheme:hover {
+    transform: scale(1.2);
+}
+
+.nav-item,
+.changeTheme,
+.logo {
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--ecriture);
+    letter-spacing: 1px;
+    transition: all .2s ease-in-out;
+}
+
+.nav-item:last-child {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.changeTheme {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f25042;
+    text-shadow:
+        1px 1px #2d2d2d66,
+        1px 2px #2d2d2d66,
+        1px 25px 35px var(--background),
+        1px 30px 60px var(--background);
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.l-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.texte {
+    width: 100%;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 50px;
+    color: #f25042;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.sous-texte {
+    font-style: oblique;
+    font-size: 20px;
+    color: #f25042;
+    text-align: left;
+    height: 100%;
+}
+
+.r-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 50%;
+}
+
+.illustration {
+    height: 80%;
+    width: 80%;
+}
+
+.carre {
+    background-color: #f25f4c;
+    height: 30%;
+    width: 25%;
+    z-index: 0;
+    left: 60%;
+    top: 12%;
+    position: relative;
+}
+
+.image {
+    z-index: 1;
+    position: relative;
+    image-rendering: optimizeQuality;
+    height: 70%;
+    width: 80%;
+    bottom: 15%;
+
+}
+
+.annee {
+    font-weight: 700;
+    font-size: 105px;
+    color: #111111;
+    border: solid 2px white;
+    background-color: #ffffff;
+    margin: 17px auto 0px 0px;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    bottom: 27%;
+    right: 10%;
+    z-index: 2;
+}
+
+.bloc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.itemtop {
+    display: flex;
+    background-color: #0f0e17;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.image2 {
+    height: 80%;
+    width: 60%;
+}
+
+.itembottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-style: oblique;
+    font-size: 15px;
+    color: #f25042;
+    text-align: center;
+    padding: 20px;
+}
+
+.items {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 70%;
+    width: 25%;
+    border: solid 5px #111111;
+    border-radius: 10px;
+}
+
+.bloc3 {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.gauche,
+.droite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.gauche img,
+.droite img {
+    width: 70%;
+}
+
+.gauche .itembottom,
+.droite .itembottom {
+    height: 100%;
+}
+
+.gauche .items,
+.droite .items {
+    width: 70%;
+}
+
+.gauche p,
+.droite p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: var(--backgroundfooter);
+    color: var(--ecriture);
+}
+.grp{
+    text-align: center;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    text-align: center;
+}
