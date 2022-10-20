@@ -3,10 +3,11 @@
 
 Bienvenue sur le github de reef (pour ne pas nous confondre avec free) voici un site qui présente l'entreprise free avec ces services, son histoire et son économie.
 
-Le site posséde un thême sombre et clair sur la majorité des pages, les pages sont aussi responsive pour la majorité. Nous avons séparé site en plusieur pages avec chacun une ou plusieuur page a faire et les tâche:  
+Le site possède un thème sombre et clair sur la majorité des pages, les pages sont aussi responsives pour la majorité. Nous avons séparé site en plusieurs pages avec chacun une ou plusieurs pages a faire et les tâches :  
+  
 LAURET Lucas : Page Histoire, réalisation du README.md.  
-YASSINE Chahid : Page Economique, principale acteur du rapport économique.  
-LEITAO Manuel : Page d'accueil et service, trés petit acteur du rapport économique, finalisation du README.md.  
+YASSINE Chahid : Page Economique, principal acteur du rapport économique.  
+LEITAO Manuel : Page d'accueil et service, très petit acteur du rapport économique, finalisation du README.md.  
 
 * Etudiant 1 (Référent du groupe) : Manuel LEITAO : manuel.leitao@edu.univ-fcomte.fr  
   
