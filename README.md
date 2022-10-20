@@ -8,6 +8,7 @@
 
 l'URL du site github page : https://mleitao2-iut90.github.io/s1-2022-ihm/  
 l'URL du projet github : https://github.com/mleitao2-iut90/s1-2022-ihm 
+Aller sur le pdf de W3C : https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/doc/rapport%20W3C.pdf
 
 ### Zoning général : 
 ![Image de fond](Images/Zoning.jpg)
