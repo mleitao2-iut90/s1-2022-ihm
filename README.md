@@ -11,9 +11,9 @@ l'URL du projet github : https://github.com/mleitao2-iut90/s1-2022-ihm
 
 ### Zoning général : 
 ![Image de fond](Images/Zoning.jpg)
-### Page d'accueil (Manuel LEITAO):
+### Page d'accueil Manuel LEITAO:
 ![Page d'acceuil](Images/Menu.png)
-### Page des services :
+### Page des services : Manuel LEITAO
 ![Page service](Images/Services.png)
 ### Histoire : Lucas LAURET
 ![Histoire](Images/Document.png)
