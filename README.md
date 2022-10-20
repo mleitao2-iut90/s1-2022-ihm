@@ -10,11 +10,11 @@ l'URL du site github page : https://mleitao2-iut90.github.io/s1-2022-ihm/
 l'URL du projet github : https://github.com/mleitao2-iut90/s1-2022-ihm  
 Aller sur le pdf de W3C : https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/doc/rapport%20W3C.pdf
 
-### Zoning général : 
+### Zoning général (Tous): 
 ![Image de fond](Images/Zoning.jpg)
-### Page d'accueil Manuel LEITAO:
+### Page d'accueil (Manuel LEITAO):
 ![Page d'acceuil](Images/Menu.png)
-### Page des services : Manuel LEITAO
+### Page des services (Manuel LEITAO) :
 ![Page service](Images/Services.png)
-### Histoire : Lucas LAURET
+### Histoire (Lucas LAURET) :
 ![Histoire](Images/Document.png)
