@@ -1,5 +1,8 @@
 # S1-2022-ihm SAE 0506
 ## Groupe numéro : 11
+
+Bienvenue sur le github de reef (pour ne pas nous confondre avec free) voici un site qui présente l'entreprise free avec ces services, son histoire et son économie.
+
 * Etudiant 1 (Référent du groupe) : Manuel LEITAO : manuel.leitao@edu.univ-fcomte.fr  
   
 * Etudiant 2 : Lucas LAURET : lucas.lauret@edu.univ-fcomte.fr  [Github]: https://github.com/llauret-iut90
