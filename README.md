@@ -3,7 +3,7 @@
 
 Bienvenue sur le Github de "REEF" (pour ne pas nous confondre avec free). Voici un site qui présente l'entreprise Free avec ses services, son histoire et son économie.
 
-Le site possède un thème sombre et clair sur la majorité des pages. Les pages sont aussi responsives pour la majorité. Nous avons séparé le site en plusieurs pages avec chacun une ou plusieurs pages à faire et les tâches :  
+Le site possède un thème sombre et clair sur la majorité des pages. Les pages sont aussi responsives pour la majorité. Nous avons séparé le site en plusieurs pages avec chacun une ou plusieurs pages à faire et les tâches :    
   
 LAURET Lucas : Page Histoire, réalisation du README.md, aide, FICHIER WEB FAIT : [histoire.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/histoire.html), [stylehistoire.css](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/css/stylehistoire.css) .  
 YASSINE Chahid : Page Economique, principal acteur du rapport économique FICHIER WEB FAIT : [Economie.html](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/Economie.html), [style3.css](https://github.com/mleitao2-iut90/s1-2022-ihm/blob/main/css/style3.css) .  
