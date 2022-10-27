@@ -218,6 +218,7 @@ a {
     width: 25%;
     border: solid 5px #111111;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
 }
 
 .bloc3 {
